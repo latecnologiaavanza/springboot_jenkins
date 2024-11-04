@@ -8,12 +8,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api")
 public class HelloController {
 
+    //Este es un nuevo comentario
     @GetMapping("/hello")
     public String saludar(){
         return "Hola Mundo con REST en Spring Boot";
     }
 
-    //new commnte
+    //Este es otro comentario
     @GetMapping("/hello2")
     public String saludar2(){
         return "Hola Mundo con REST en Spring Boot";
